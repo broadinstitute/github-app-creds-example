@@ -6,7 +6,7 @@ Example of using GitHub App credentials.
    ```
 
 2.  ```python
-    from github import Github, GithubIntegration
+    from github import GithubIntegration
     
     GITHUB_APP_ID = os.getenv('GITHUB_APP_ID')
     GITHUB_APP_INSTALLATION_ID = os.getenv('GITHUB_APP_INSTALLATION_ID')
